@@ -1,0 +1,12 @@
+const math=require('./Math')
+console.log(math.add(2,3))
+console.log(math.mul(9,3))
+console.log(math.div(8,4))
+console.log(math.sub(4,2))
+
+console.log("-------alternate way to use the funitons destructruning--------")
+const {add,mul,div,sub}=require('./Math')
+console.log(add(1,3))
+console.log(mul(3,5))
+console.log(div(8,4))
+console.log(sub(4,1))

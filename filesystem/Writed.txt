@@ -1,0 +1,2 @@
+this way to we can write the content into file
+ add one more content or update content
